@@ -11,6 +11,21 @@ body {
     border: 0;
 }
 
+.more-information {
+    font-family: 'Maven Pro', sans-serif;
+    padding: 8px 10px;
+    border-radius: 9px;
+    color: white;
+    background-color: #5F2D48;
+    border: none;
+    transition: 0.4s;
+}
+
+.color:hover .more-information {
+	background: #2C5255;
+	opacity: 0.5;
+}
+
 button {
     font-family: 'Maven Pro', sans-serif;
     padding: 8px 10px;
@@ -57,12 +72,9 @@ header nav ul li {
     font-size: 4rem;
 }
 
-
-/* Endereçamento para o packages, que é a minha classe pai dos cards*/
-
 .packages {
     padding: 15px;
-    background: #264C4E;
+    background: black;
 }
 
 .packages .tituloSkills h1 {
@@ -88,6 +100,13 @@ header nav ul li {
     background: white;
     border-radius: 18px 0px;
     position: relative;
+    transition: 0.5s;
+}
+
+.card:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.1);
 }
 
 .packages .card .card1 .card-tag-top {
@@ -246,10 +265,11 @@ header nav ul li {
     position: relative;
     display: flex;
     padding: 7px 0px 2px 0px;
-    background: #264C4E;
+    background: black;
 }
 
 .Creator-page .Arthur-copy h1 {
+	opacity: 0.5;
     font-weight: bold;
     height: 18px;
     width: 170px;
