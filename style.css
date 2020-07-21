@@ -9,7 +9,6 @@ body {
     font-family: 'Maven Pro', sans-serif;
     font-weight: bold;
     border: 0;
-    /* Retirar a scrollbar */
     /* overflow: hidden; */
 }
 
@@ -32,7 +31,7 @@ body {
 
 header {
     min-height: 100vh;
-    background: no-repeat center/cover url('assets/header_image.jpg');
+    background: no-repeat center/cover url('assets/header_image.png');
 }
 
 header .navbar {
@@ -284,7 +283,6 @@ header .navbar ul li a .button:hover {
     color: grey;
 }
 
-/* svg -> class - feather icons */
 .packages .card ul li svg {
     width: 16px;
     height: 16px;
@@ -421,6 +419,7 @@ header .navbar ul li a .button:hover {
         font-weight: bold;
     }
     header .navbar ul {
+        /*position: absolute;*/
         position: fixed;
         bottom: 0;
         left: 0;
@@ -467,6 +466,9 @@ header .navbar ul li a .button:hover {
     }
 }
 
+
+/* Landscape phones and down */
+
 @media (max-width: 480px) {
     body {
         margin-bottom: 55px;
@@ -486,18 +488,21 @@ header .navbar ul li a .button:hover {
         width: 100%;
         padding: 0;
         margin: 0;
-
         background: #5F2D48;
-
         height: 55px;
         display: flex;
-
         justify-content: space-between;
         align-items: center;
     }
+
     header .navbar p {
         width: 100%;
         text-align: center;
+    }
+    header .apresentation {
+        width: auto;
+        height: auto;
+        margin: 0 8px;
     }
     .About-me {
         height: auto;
@@ -527,5 +532,15 @@ header .navbar ul li a .button:hover {
         position: relative;
         float: right;
         justify-content: center;
+    }
+    .packages .card-container .card {
+        max-width: 100%;
+    }
+
+    .packages .card-container .card .card-tech-img {
+        max-width: 100%;
+    }
+    .creator-page .Arthur-copy h1 {
+        max-width: 100%;
     }
 }
