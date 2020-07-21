@@ -13,25 +13,41 @@
 
 
 <body>
+    <header id="home">
+        <div class="container">
+            <nav class="navbar">
+                <p>Arthur Alves Reis</p>
 
-    <header>
-        <nav>
-            <p>Arthur Alves Reis</p>
+                <ul>
+                    <li>
+                        <a href="#home">
+                            <button class="button">Home</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#packages">
+                            <button class="button">Services</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#About-me">
+                            <button class="button">About-me</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contacts">
+                            <button class="button">Contact</button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="apresentation">
+            <div class="header-content">
+                <h1>My Portfolio</h1>
+                <p>Adventist, math and physics lover, always learning AI and programming, linux/ OSX user, and guitarist sometimes.</p>
+                <!-- <li><a href="#prices">Prices</a></li> (This could be a paragraph or a button)</li> -->
 
-            <ul>
-                <li>Home</li>
-                <li>Services</li>
-                <li>About me</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-
-        <div class="header-content">
-            <h1>My life</h1>
-            <p>Adventist, math and physics lover, always learning AI and programming, linux/ OSX user, and guitarist sometimes.</p>
-            <!-- <li><a href="#prices">Prices</a></li> (This could be a paragraph or a button)</li> -->
-
-            <div class="neon-effect">
                 <a href="#About-me">
                     <button class="more-information">More informations about me</button>
                 </a>
@@ -41,7 +57,7 @@
     </header>
 
 
-    <section class="packages">
+    <section class="packages" id="packages">
 
         <div class="tituloSkills">
             <p class="Services">Services</p>
@@ -97,9 +113,11 @@
     </section>
 
     <section class="About-me" id="About-me">
+
         <div class="tituloAboutme">
             <h1 class="titulo">About me</h1>
         </div>
+
         <div class="about-me_container">
             <div class="textAbout-me">
                 <p class="my-text">Hello, firstly i'm very happy that you visited my personal portfolio. I'm Arthur, I've been a technology lover since I was a kid, Actually, I work in the front-end web development area with a base (HTML + CSS) and Bootstrap framework.
@@ -107,8 +125,20 @@
                 </p>
             </div>
             <div class="myphoto">
-                <img class="img" src="assets/about-me_image.jpeg" alt="about-me_img">
+                <img class="myphoto_img" src="assets/about-me_image.jpeg" alt="about-me_img" width="300px" height="300px">
             </div>
+        </div>
+
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="Networking">
+            <ul>
+                <li><a onclick="window.open('https://github.com/itsArthurAlves')" class="social-media"><i data-feather="github"></i></a></li>
+                <li><a onclick="window.open('https://twitter.com/itsArthurAlves')" class="social-media"><i data-feather="twitter"></i></a></li>
+                <li><a onclick="window.open('https://instagram.com/_arthur.alves_/')" class="social-media"><i data-feather="instagram"></i></a></li>
+                <li><a onclick="window.open('https://linkedin.com/in/arthur-alves-78a63a161/')" class="social-media"><i data-feather="linkedin"></i></a></li>
+            </ul>
         </div>
     </section>
 
@@ -118,9 +148,7 @@
         </div>
     </section>
 
-    <script>
-        feather.replace()
-    </script>
+    <script src="library.js"></script>
 
 </body>
 
