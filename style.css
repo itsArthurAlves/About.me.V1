@@ -9,10 +9,11 @@ body {
     font-family: 'Maven Pro', sans-serif;
     font-weight: bold;
     border: 0;
+
     /* overflow: hidden; */
 }
 
-.more-information {
+.apresentation .header-content a button {
     font-family: 'Maven Pro', sans-serif;
     padding: 8px 10px;
     border-radius: 20px;
@@ -23,7 +24,7 @@ body {
     transition: 0.4s;
 }
 
-.more-information:hover {
+.apresentation .header-content a button:hover {
     background: #8900f2;
     opacity: 0.4;
     box-shadow: 0 0 10px #8900f2, 0 0 40px #8900f2, 0 0 80px #8900f2;
@@ -31,7 +32,7 @@ body {
 
 header {
     min-height: 100vh;
-    background: no-repeat center/cover url('assets/header_image.png');
+    background: no-repeat center/cover url('assets/header_image.jpg');
 }
 
 header .navbar {
@@ -94,7 +95,7 @@ header .navbar ul li a .button:hover {
     box-shadow: 0px -20px 40px 0px black
 }
 
-.packages .tituloSkills .Services {
+.packages .tituloSkills p {
     margin: auto;
     text-align: center;
     font-size: 3rem;
@@ -138,7 +139,7 @@ header .navbar ul li a .button:hover {
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px #5F2D48;
 }
 
-.packages .card .card1 .card-tag-top {
+.packages .card .card-tag-top {
     position: absolute;
     right: 0;
     top: 15px;
@@ -147,25 +148,7 @@ header .navbar ul li a .button:hover {
     padding: 5px 10px;
 }
 
-.packages .card .card2 .card-tag-top {
-    position: absolute;
-    right: 0;
-    top: 15px;
-    background: #5F2D48;
-    border-radius: 9px 0 0 9px;
-    padding: 5px 10px;
-}
-
-.packages .card .card3 .card-tag-top {
-    position: absolute;
-    right: 0;
-    top: 15px;
-    background: #5F2D48;
-    border-radius: 9px 0 0 9px;
-    padding: 5px 10px;
-}
-
-.packages .card .card1 .card-tag-top p {
+.packages .card .card-tag-top p {
     font-family: 'Maven Pro', sans-serif;
     color: white;
     font-weight: bold;
@@ -174,76 +157,20 @@ header .navbar ul li a .button:hover {
     display: flex;
 }
 
-.packages .card .card2 .card-tag-top p {
-    font-family: 'Maven Pro', sans-serif;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-    margin: 0;
-    display: flex;
-}
-
-.packages .card .card3 .card-tag-top p {
-    font-family: 'Maven Pro', sans-serif;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-    margin: 0;
-    display: flex;
-}
-
-.packages .card .card1 .card-tag-top p svg {
+.packages .card .card-tag-top p svg {
     width: 16px;
     height: 16px;
     margin-right: 5px;
 }
 
-.packages .card .card2 .card-tag-top p svg {
-    width: 16px;
-    height: 16px;
-    margin-right: 5px;
-}
-
-.packages .card .card3 .card-tag-top p svg {
-    width: 16px;
-    height: 16px;
-    margin-right: 5px;
-}
-
-.packages .card .card1 .card-tech-img {
+.packages .card .card-tech-img {
     width: 250px;
     height: 200px;
     border-radius: 18px 18px 0px 0px;
     object-fit: cover;
 }
 
-.packages .card .card2 .card-tech-img {
-    width: 250px;
-    height: 200px;
-    border-radius: 18px 18px 0px 0px;
-    object-fit: cover;
-}
-
-.packages .card .card3 .card-tech-img {
-    width: 250px;
-    height: 200px;
-    border-radius: 18px 18px 0px 0px;
-    object-fit: cover;
-}
-
-.packages .card .card1 h1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-.packages .card .card2 h1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-.packages .card .card3 h1 {
+.packages .card h1 {
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
@@ -256,25 +183,7 @@ header .navbar ul li a .button:hover {
     padding: 10px;
 }
 
-.packages .card .card1 ul li {
-    font-weight: bold;
-    font-size: 0.6rem;
-    display: flex;
-    align-items: center;
-    margin: 7px 0;
-    color: grey;
-}
-
-.packages .card .card2 ul li {
-    font-weight: bold;
-    font-size: 0.6rem;
-    display: flex;
-    align-items: center;
-    margin: 7px 0;
-    color: grey;
-}
-
-.packages .card .card3 ul li {
+.packages .card ul li {
     font-weight: bold;
     font-size: 0.6rem;
     display: flex;
@@ -308,7 +217,7 @@ header .navbar ul li a .button:hover {
     padding-top: 40px;
 }
 
-.About-me .tituloAboutme .titulo {
+.About-me .tituloAboutme h1 {
     margin: auto;
     text-align: center;
     font-size: 3rem;
@@ -325,7 +234,7 @@ header .navbar ul li a .button:hover {
     width: 45%;
 }
 
-.About-me .textAbout-me .my-text {
+.About-me .textAbout-me p {
     /* line-height: 11px; */
     text-align: left;
     font-size: 1.5rem;
@@ -374,10 +283,6 @@ header .navbar ul li a .button:hover {
     border: none;
 }
 
-.contacts .Networking ul li .social-media:active:focus {
-    border-style: none;
-}
-
 .contacts .Networking ul li svg {
     color: white;
     /* color: #8900f2; */
@@ -409,6 +314,7 @@ header .navbar ul li a .button:hover {
 /* Landscape phone to portrait tablet */
 
 @media (max-width: 767px) {
+    /* Explicação logo em seguida*/
     body {
         margin-bottom: 55px;
     }
@@ -419,7 +325,6 @@ header .navbar ul li a .button:hover {
         font-weight: bold;
     }
     header .navbar ul {
-        /*position: absolute;*/
         position: fixed;
         bottom: 0;
         left: 0;
@@ -455,7 +360,7 @@ header .navbar ul li a .button:hover {
         margin: 30px 20px 0px 20px;
         text-align: unset;
     }
-    .About-me .textAbout-me .my-text {
+    .About-me .textAbout-me h1 {
         font-size: 1rem;
     }
     .About-me .myphoto {
@@ -494,7 +399,6 @@ header .navbar ul li a .button:hover {
         justify-content: space-between;
         align-items: center;
     }
-
     header .navbar p {
         width: 100%;
         text-align: center;
@@ -518,9 +422,9 @@ header .navbar ul li a .button:hover {
         margin: auto 15px;
         text-align: unset;
     }
-    .About-me .textAbout-me .my-text {
+    /* .About-me .tituloAboutme h1 {
         font-size: 1rem;
-    }
+    } */
     .About-me .myphoto {
         width: 300px;
         height: 300px;
@@ -536,11 +440,15 @@ header .navbar ul li a .button:hover {
     .packages .card-container .card {
         max-width: 100%;
     }
-
     .packages .card-container .card .card-tech-img {
         max-width: 100%;
     }
     .creator-page .Arthur-copy h1 {
         max-width: 100%;
+    }
+    .contacts .Networking ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
