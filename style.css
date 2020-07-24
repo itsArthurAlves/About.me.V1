@@ -9,7 +9,7 @@ body {
     font-family: 'Maven Pro', sans-serif;
     font-weight: bold;
     border: 0;
-    /* no scroll-bar*/
+    /* no scroll */
     /* overflow: hidden; */
 }
 
@@ -23,6 +23,7 @@ body {
     overflow: hidden;
     transition: 0.4s;
 }
+
 
 .apresentation .header-content a button:hover {
     background: #8900f2;
@@ -192,6 +193,7 @@ header .navbar ul li a .button:hover {
     color: grey;
 }
 
+
 .packages .card ul li svg {
     width: 16px;
     height: 16px;
@@ -313,6 +315,7 @@ header .navbar ul li a .button:hover {
 
 /* Landscape phone to portrait tablet */
 
+
 @media (max-width: 767px) {
     body {
         margin-bottom: 55px;
@@ -378,8 +381,8 @@ header .navbar ul li a .button:hover {
 
 /* Landscape phones and down */
 
-
 @media (max-width: 480px) {
+    /* Explicação logo em seguida*/
     body {
         margin-bottom: 55px;
         font-size: 40%;
@@ -401,9 +404,11 @@ header .navbar ul li a .button:hover {
         justify-content: space-between;
         align-items: center;
     }
+    /* Referência do (header nav ul li) - minha lista de elementos*/
     header .navbar ul li {
         font-weight: bold;
     }
+    /* Referência do meu "(nav p) - título "Arthur Alves Reis"*/
     header .navbar p {
         width: 100%;
         text-align: center;
