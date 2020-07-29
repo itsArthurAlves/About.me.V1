@@ -423,6 +423,13 @@ header .navbar ul li a .button:hover {
         height: auto;
         margin: 0 8px;
     }
+    .header-content {
+        margin: 30px auto;
+        margin-bottom: 0px;
+    }
+    .header-content h1 {
+        font-size: 3rem;
+    }
     .About-me {
         height: auto;
     }
