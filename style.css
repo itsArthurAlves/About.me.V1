@@ -387,7 +387,6 @@ header .navbar ul li a .button:hover {
 /* Landscape phones and down */
 
 @media (max-width: 480px) {
-    /* Explicação logo em seguida*/
     body {
         margin-bottom: 55px;
         font-size: 40%;
@@ -409,11 +408,9 @@ header .navbar ul li a .button:hover {
         justify-content: space-between;
         align-items: center;
     }
-    /* Referência do (header nav ul li) - minha lista de elementos*/
     header .navbar ul li {
         font-weight: bold;
     }
-    /* Referência do meu "(nav p) - título "Arthur Alves Reis"*/
     header .navbar p {
         width: 100%;
         text-align: center;
