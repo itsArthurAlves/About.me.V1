@@ -350,7 +350,7 @@ header .navbar ul li a .button:hover {
         text-align: center;
     }
     .header-content {
-        margin: 120px auto;
+        margin: auto;
     }
     .About-me {
         padding: calc(auto + 15px);
